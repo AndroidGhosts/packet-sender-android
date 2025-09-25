@@ -11,7 +11,11 @@ requirements = python3,kivy
 
 android.permissions = INTERNET,ACCESS_NETWORK_STATE
 
-orientation = portrait
+# أضف هذه الإعدادات الجديدة
+android.sdk = 34
+android.ndk = 25b
+android.build_tools_version = 34.0.0
+android.api = 34
 
 [buildozer]
 log_level = 2
