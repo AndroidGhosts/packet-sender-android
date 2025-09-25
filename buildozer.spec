@@ -1,0 +1,17 @@
+[app]
+title = Cyber Packet Sender
+package.name = packetsender
+package.domain = org.syria
+
+source.dir = .
+source.include_exts = py,png,jpg,kv,atlas
+
+version = 1.0
+requirements = python3,kivy
+
+android.permissions = INTERNET,ACCESS_NETWORK_STATE
+
+orientation = portrait
+
+[buildozer]
+log_level = 2
